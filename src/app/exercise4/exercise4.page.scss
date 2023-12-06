@@ -1,0 +1,12 @@
+
+    @media (max-width: 760px) {
+        ion-row{
+            display: flex;
+            flex-direction: column-reverse;
+        }   
+
+        ion-col {
+            width: 100%; 
+          }
+    }
+  

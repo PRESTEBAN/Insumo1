@@ -1,0 +1,17 @@
+ion-grid {
+    img {
+      width: 100%; 
+    }
+    @media only screen and (min-width: 600px) {
+      ion-row {
+        display: flex;
+      }
+  
+      ion-col {
+        flex: 1;
+      }
+      ion-col:first-child {
+        order: 2; 
+      }
+    }
+  }
